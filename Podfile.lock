@@ -1,20 +1,24 @@
 PODS:
   - Alamofire (4.8.1)
+  - ATGMediaBrowser (1.1.0)
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
   - Alamofire
+  - ATGMediaBrowser
   - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - ATGMediaBrowser
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  ATGMediaBrowser: 3ab9492ef9d48d91684fa69c52a38de7af3d7058
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: fd8211b84929cd73a244bbaf218e8eb7f3906d81
+PODFILE CHECKSUM: 2ef932ba5abd131d540ddb356566ee0fc277842c
 
 COCOAPODS: 1.6.1

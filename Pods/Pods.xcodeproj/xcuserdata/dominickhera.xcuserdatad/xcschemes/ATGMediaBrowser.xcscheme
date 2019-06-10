@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1707C2774FCA81E85E2D615BE01E5969"
-               BuildableName = "SwiftyJSON.framework"
-               BlueprintName = "SwiftyJSON"
+               BlueprintIdentifier = "6CFA667DA73325544E9C756FCADC516D"
+               BuildableName = "ATGMediaBrowser.framework"
+               BlueprintName = "ATGMediaBrowser"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

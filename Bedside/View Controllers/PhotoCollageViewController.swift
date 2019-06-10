@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Photos
+import PhotosUI
 import CoreLocation
 
 class PhotoCollageViewController: UIViewController, CLLocationManagerDelegate {
@@ -51,6 +53,17 @@ class PhotoCollageViewController: UIViewController, CLLocationManagerDelegate {
         RunLoop.current.add(timer, forMode: RunLoop.Mode.common)
         
         weatherTimer = Timer.init(timeInterval: 15, target: self, selector: #selector(updateWeather), userInfo: nil, repeats: true)
+        
+        let photos = PHPhotoLibrary.authorizationStatus()
+        if photos == .notDetermined {
+            PHPhotoLibrary.requestAuthorization({status in
+                if status == .authorized{
+                    print("authorized boi")
+                } else {
+                    print("not authorized boi")
+                }
+            })
+        }
         // Do any additional setup after loading the view.
     }
     

@@ -9,6 +9,8 @@ target 'Bedside' do
 
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'ATGMediaBrowser'
+
 
   target 'BedsideTests' do
     inherit! :search_paths
